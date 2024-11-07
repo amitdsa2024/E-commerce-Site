@@ -28,15 +28,19 @@ body {
   }
   
   nav ul li a {
-    color: #fff;
+    color: #f70b0b;
     text-decoration: none;
   }
-  
   .hero {
     text-align: center;
     padding: 50px;
-    background: #f4f4f4;
-  }
+    background-image: url();
+    background-size: cover; /* Ensures the image covers the area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    color: white; /* Text color for contrast */
+}
+
   
   .hero button {
     padding: 10px 20px;
