@@ -48,11 +48,15 @@ nav ul li a {
 
 .products {
   display: flex;
-  justify-content: space-around;
+  flex-wrap:wrap;
+  gap:16px;
+  justify-content: space-between;
   padding: 20px;
 }
 
 .product-card {
+  flex:1 1 22%;
+  box-sizing:border-box;
   border: 1px solid #ccc;
   padding: 20px;
   text-align: center;
